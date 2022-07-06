@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "EstFunctionApp": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7277"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 32612,
+      "useSSL": false
+    }
+  }
+}
